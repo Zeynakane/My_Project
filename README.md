@@ -26,13 +26,19 @@ Pour les  script.py leur lancement se fait comme suit :
 
 # Fonctionnement des scripts :
  #client.py
+ 
+ 
  -interagit avec le serveur pour inscrire les identifiants d'un clients dans la base de donnée
 -interagit avec le serveur pour se connecter
 -permet d'initialiser une connexion avec un serveur et d'interagir avec celui ci afin d'avoir la possibilité de s'inscrire,
 #de se connecter ou de terminer la connexion
+
+
 #server.py
  -permet au serveur de recupérer les informations d'inscription d'un client
 -permet au serveur de recupérer les informations de connexion d'un client
 -permet au serveur d'initialiser une connexion en attente d'un client et d'interagir avec celui ci
+
+
 #database.py
 -permet de vérifier le mail de s'inscrire dans la base et de se connecter à celle-ci
